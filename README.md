@@ -13,14 +13,14 @@ E-Hallway Pass is a simple Python application that tracks the time a user is awa
 
 ## How to Use
 1. Run the script in a Python environment.
-2. When prompted, scan your ID (input any unique string to simulate the ID).
+2. When prompted, scan your ID to the card read connected to your device (or input any unique string to simulate the ID).
 3. After some time, scan the ID again when you return.
 4. The program will give feedback based on the time you were away.
 
 ## Code Explanation
-- The `newSCAN()` function runs in a loop, prompting the user to scan their ID when they leave and when they return.
+- The `newSCAN()` function runs in a loop, prompting the user to scan their ID when they leave and return.
 - The time between scans is measured and feedback is given based on the time spent away.
-- The `newLine()` function is used to print separators for better readability of the output.
+- The `newLine()` function prints separators for better output readability.
 
 ## Important Notes
 - This code uses `input()` to simulate scanning IDs. In a real-world application, you would integrate actual scanning hardware or software.
