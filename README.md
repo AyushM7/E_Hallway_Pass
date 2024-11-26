@@ -25,6 +25,3 @@ E-Hallway Pass is a simple Python application that tracks the time a user is awa
 ## Important Notes
 - This code uses `input()` to simulate scanning IDs. In a real-world application, you would integrate actual scanning hardware or software.
 - The program runs indefinitely in a loop. To exit, you may need to manually stop the script (e.g., by pressing `Ctrl+C`).
-
-## License
-This project is licensed under the MIT License.
